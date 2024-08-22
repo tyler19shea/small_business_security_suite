@@ -46,7 +46,7 @@ https://github.com/prometheus-community/windows_exporter/releases
 
 This will server the metrics on http://localhost:9182/metrics. If you navigate to the page and it doesnt display a page with various metrics ensure windows_exporter.exe is running and ensure that you have administrative permissions to install and run the exporter.
 
-Ensure the firewall on the Windows machine allows trafiic on port 9182. On another machine on the same network type http://<WindowsMachineIP>:9182/metircs
+Ensure the firewall on the Windows machine allows trafiic on port 9182. On another machine on the same network type http://"WindowsMachineIP":9182/metircs
 
 
 ### Connect Grafana to Prometheus
